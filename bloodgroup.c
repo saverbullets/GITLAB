@@ -3,6 +3,7 @@
 void main()
 { char Name[40], G[5], answer[10];
   int i,j;
+  int l;
   do
   {
     printf("What is your Name? ");
@@ -45,4 +46,5 @@ void main()
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
+  printf("work");
 }
