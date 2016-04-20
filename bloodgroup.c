@@ -3,11 +3,8 @@
 void main()
 { char Name[40], G[5], answer[10];
   int i,j;
-<<<<<<< HEAD
-  int l;
-=======
-  int k;
->>>>>>> d842aa1dfe6e011a7bb76bac4b2658bf91f1b205
+  int l,k;
+
   do
   {
     printf("What is your Name? ");
@@ -50,9 +47,5 @@ void main()
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
-<<<<<<< HEAD
-  printf("work");
-=======
-  printf("Nani");
->>>>>>> d842aa1dfe6e011a7bb76bac4b2658bf91f1b205
+  printf("work Nani");
 }
